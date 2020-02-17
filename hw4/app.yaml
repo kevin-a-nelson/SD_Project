@@ -1,0 +1,13 @@
+- View:
+    style:
+      backgroundColor: forestgreen
+      width: 400
+      borderRadius: 10
+       
+- Image:
+    source: kitty.jpg
+    style:
+      width: 250
+      height: 50
+      marginLeft: 100
+
