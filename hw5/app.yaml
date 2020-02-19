@@ -1,0 +1,37 @@
+- HyperLink:
+    url: 'http://wp.stolaf.edu/'
+    style:
+      letterSpacing: 5
+    index: 10
+
+- Button:
+    title: "press"
+    style: 
+      width: 100
+      height: 40
+      alignItems: left
+      borderRadius: 20
+      backgroundColor: forestgreen
+    on_touch: 
+      backgroundColor: orange
+    children:
+      - Text: 
+           style:
+          fontSize: 15
+           index: 17
+
+- Button:
+    title: "press"
+    style:
+      width: 50
+      height: 60
+      alignItems: center
+      borderRadius: 25
+      backgroundColor: orange
+    on_touch: 
+      backgroundColor: forestgreen
+    children:
+      - Text: 
+           style:
+          fontSize: 15
+           index: 67
