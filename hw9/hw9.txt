@@ -1,0 +1,60 @@
+﻿Exercise 1 (CQ):  For the following code, identify which kind of & is used in each of the places where the & occurs:
+
+
+#include<iostream>
+using namespace std;
+
+
+int f(int &a, int b) { // 
+  int *p;
+  p = &b; // “address-of”
+  return a & (b + 2); // logical “and”
+}
+
+
+int main() {
+  int x = 3, *y;
+  int &z = x; // declaring a variable that is a reference
+  y = &z; // “address-of”
+  z = f(x, z);
+  cerr << x << " " << z << endl;
+
+
+
+
+}
+
+
+Exercise 2 (CQ).  Write out two more equivalences from our five variables above (don’t make new ones).  Don’t just swap the side that a variable or value is on, but actually come up with two that we have not yet expressed.
+  &a == 100
+  b == e
+  *d == b
+  e == 'h'
+  *c == 5
+  c == 100
+  B == ‘h’
+  *d and *c == b % 5
+
+
+Exercise 3 (CQ):  For the following code, identify which kind of * is used in each of the places where the * occurs:
+
+
+#include<iostream>
+using namespace std;
+  
+int f(int *a, int b) { //pointer
+  int p;
+  p = *a; // copy the value of a
+  return p * (b + 2); // multiply
+}
+
+
+int main() {
+  int x = 3, *y; // pointer
+  y = &x;
+  int *z; // pointer
+  z = y;
+  *y = 7; // changes the value of y
+  x = f(z, *y); // changed value of y
+  cerr << x << endl;
+}
