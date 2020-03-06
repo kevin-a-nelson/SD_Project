@@ -1,0 +1,21 @@
+﻿Exercise 2 (CQ): Why is the return value from the new operator a memory address?
+Because the previous operator was a pointer.
+
+
+Exercise 3 (CQ): Roughly how much memory can you allocate on a lab machine, before the system refuses to allocate more? (Make a test program to find out.  You don’t need to turn in the test program, just your answer to the question.)
+
+
+Exercise 4 (CQ): Carefully compare the following program (Alloc2.cpp) with the following memory diagram (and ignore the two places where “cout:” is printed--just look at what comes after the “cout:”). Where, if anywhere, is the difference between a pointer to a single value and a pointer to a sequence of values shown?
+We didn’t need a pointer sign ‘ * ’ for the sequence. We also had to pick the position of the value in a sequence.
+
+
+Exercise 5: Write a program swap_ptr.cpp just like Alloc2.cpp, but swap the addresses stored by the two pointers after the memory is allocated. That is, give p0 the address that started out in p1, and give p1 the address that started out in p0. (You may want to create a third, temporary pointer in order to swap the pointer values.) (CQ) At this point, can you use p0 to access members of the array? Can you use p1[0]? What happens if you try to print p1[1]?
+Yes, as it has the address of p1. No. It’ll print out the value stored in p0.
+
+
+Exercise 12 (CQ):  Explain, in your own words, how to keep track of the number of clicks in an app, including why it is necessary to use the just_starting() function.
+Just_starting resents everything to 0 (shows that we’re running the program for the first time).
+
+
+Exercise 13 (CQ):  Explain, in your own words, why it doesn’t work to set the index of the Text component to index [5], which is where we are storing our counter.  Hint:  consider what the bytes will actually contain at index [5], and at index [10].
+We will get the wrong address.
