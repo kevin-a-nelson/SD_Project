@@ -1,0 +1,162 @@
+﻿Exercise 1 (CQ):  Which style of comment do you think you will prefer to use in your own code, and why?
+I think I would prefer a very precise one-line comment after each line of code.
+
+
+Exercise 2 (CQ): Based on this information, please answer the following questions:
+a: How do you write the decimal number 12 in octal (eight fingers)? 14
+b: How do you write the decimal number 12 in hexadecimal (sixteen fingers)? a
+c: What is the decimal version of the octal number 20? 16
+d: What is the decimal version of the hexadecimal number 11? 17
+e: How do you write the decimal number 23 in octal? 27
+f: How do you write the decimal number 23 in hexadecimal? 17
+g: How do you write the decimal number 54 in hexadecimal? 36
+h: What is the decimal version of the hexadecimal number ff? 255
+
+
+
+
+Exercise 3 (CQ):  How do you write the decimal number 21 in binary?  What is the decimal version of the binary number 11000?
+10101
+24
+
+
+Exercise 4 (CQ):  what is the decimal equivalent of the binary number 11001001? 1x2^0+0+0+1x2^3+0+0+1*2^6+2^7 = 201
+
+
+Exercise 5 (CQ):  What is the hexadecimal equivalent of the decimal number 203?  What is the binary equivalent of the decimal number 203? 203/16 = 13, 13/16 = 0, 10. Answer: CB
+11001011
+
+
+Exercise 6 (CQ):  what is the hex equivalent of the binary number 1111 0001?  What is the binary equivalent of the hexadecimal number 0xe3?
+1111 0001 = F1
+0xe3 = 1110 0011
+
+
+Exercise 7 (CQ):  What are the bit values for the first eight bytes, namely those with indices from [0] to [7]? (Please type in your answers as zeros and ones.)
+0000 1111
+0000 0111
+0000 0001
+0000 0011
+0000 0000
+0000 0000 
+0000 0000
+0000 0001
+
+
+Exercise 8 (CQ):  What are the bit values for the eight bytes that start at index [80]? These bit values have a lot in common with the bit values in the previous exercise; how exactly are they different?
+1000 1111
+1000 0111
+0000 0001
+1000 0011
+0000 0000
+0000 0000
+0000 0000
+1000 0001
+They have a similar pattern. It seems like it’s mirrored in a way.
+
+
+Exercise 9 (CQ):  What are the hex values for the first eight bytes, namely those with indices from [0] to [7]?  Please verify that these hex values are equivalent to the binary values you found earlier.
+0f
+07
+01
+03
+00
+00
+00
+01
+
+
+Exercise 10 (CQ):  What are the hex values for the eight bytes that start at index [80]? These hex values have a lot in common with the hex values in the previous exercise; how exactly are they different?
+8f
+87
+01
+83
+00
+00
+00
+81
+They start with an 8 which shows us the index
+
+
+Exercise 11 (CQ):  What are the decimal values for the first eight bytes, namely those with indices from [0] to [7]?  Please verify that these decimal values are equivalent to the hex values you found earlier.
+15
+7
+1
+3
+0
+0
+0
+1
+
+
+Exercise 12 (CQ):  What are the decimal values for the eight bytes that start at index [80]?  These decimal values are related to the decimal values in the previous exercise; how exactly are they different?
+143
+135
+1
+131
+0
+0
+0
+129
+
+
+
+
+Exercise 13 (CQ):  what is the ascii character at index [41]? How about at index [60]?  Please verify that these two ascii characters are correct, that is, that the character corresponds to the bits that are stored at these byte locations.
+[41] = ‘e’, decimal 101
+[60] = ‘e’, decimal 126
+
+
+Exercise 14 (CQ):  What are the four 16 bit numbers stored in the first eight bytes, starting with index [0]?  Please verify that the 16 bit values shown are correct:  they should be related to the (8 bit) decimal values you saw earlier.
+1807
+769
+0
+256
+
+
+Exercise 15 (CQ):  What are the four 16 bit numbers stored in the eight bytes that start at index [80]?  These decimal values are related to the decimal values in the previous exercise; by how much do they differ (exactly)?
+34703
+33537
+0
+33024
+The numbers are much bigger, but the pattern is still the same. Zero doesn’t change.
+
+
+Exercise 16 (CQ): Please take a look at the 32 bit number that starts at index [4].  Does it look approximately right, given the information you have seen before?   Why?
+Yes. 
+
+
+Exercise 17 (CQ):  what is the 64 bit number stored beginning at index [40]?  What is the 32 bit number stored beginning at index [40]?
+8031924123371070824
+1819043176
+
+
+Exercise 18 (CQ):  What are the first eight signed (8bit) values starting at index [80]? Compare them to the corresponding unsigned values (which you wrote down in a previous exercise) and check that they are correct.
+-113
+-121
+1
+-125
+0
+0
+0
+-127
+
+
+They are the first row, but -128.
+
+
+Exercise 19 (CQ):  What is the signed decimal number corresponding to 1000 0010?  How about 1111 0000?  What is the 8 bit value corresponding to the decimal number -53?
+-126
+-112
+1100101
+
+
+Exercise 20 (CQ):  What is the signed decimal number corresponding to 1111 0000  1111 0000?   What are the values of 16 bits corresponding to the decimal number -23756?
+61680
+-89292
+
+
+
+
+Exercise 21 (CQ):  Explain why floating point numbers have limited precision, and why operations with floating point numbers (like adding two floats to get another float) will not necessarily be mathematically correct.
+The precision is limited because we are limited by the size of units and the number of available numbers.

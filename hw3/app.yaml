@@ -1,0 +1,12 @@
+- View:
+    style:
+      backgroundColor: red
+      flex: 1
+- View:
+    style:
+      backgroundColor: orange
+      flex: 2
+- View:
+    style:
+      backgroundColor: forestgreen
+      flex: 3

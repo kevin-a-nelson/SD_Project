@@ -1,0 +1,10 @@
+- TextInput:
+    index: 13
+    len: 80
+    style:
+      width: 320
+      height: 30
+      fontSize: 20
+      backgroundColor: 'white'
+      borderColor: 'gray'
+      borderWidth: 1

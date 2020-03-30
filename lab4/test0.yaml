@@ -1,0 +1,22 @@
+- View:
+    style:
+      flex: 1
+      flexDirection: row
+- View:
+    style:
+      flex: 5
+    children:
+      - Image:
+          source: https://opidesign.net/wp-content/uploads/landscape-architecture-fun-facts-outside-productions-blog-768x432.jpg
+          style:
+            width: 200
+            height: 300
+      - Button:
+          id: to_home_screen
+          style:
+            width: 50
+            height: 50
+            borderRadius: 50%
+            backgroundColor: green
+          on_touch:
+            backgroundColor: rgb(255, 100, 100)

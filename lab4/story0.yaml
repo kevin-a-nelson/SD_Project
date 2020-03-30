@@ -1,0 +1,22 @@
+- View:
+    style:
+      flex: 1
+      flexDirection: row
+- View:
+    style:
+      flex: 5
+    children:
+      - Image:
+          source: https://en.wiktionary.org/wiki/field#/media/File:Fields_below_Frocester_Hill_(1565).jpg
+          style:
+            width: 200
+            height: 200
+      - Button:
+          id: to_home_screen
+          style:
+            width: 50
+            height: 50
+            borderRadius: 50%
+            backgroundColor: blue
+          on_touch:
+            backgroundColor: rgb(100, 100, 255)
