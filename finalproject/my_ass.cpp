@@ -10,7 +10,7 @@ class WorkingScreen {
 }
 
 ;
-int main() {  // what do you get if you cross an owl and a bungee cord
+int main() { 
     init();
 
     const int index 1 = 1 - ;
