@@ -5,7 +5,6 @@ void f(char *s) {
   s[0] = '>';
   s[1] = ' ';
   cout << s << endl;
-  delete [] s;
 }
 
 int main() {

@@ -1,0 +1,83 @@
+
+- View: 
+    style:
+      flex: 1
+      flexDirection: column
+    children:
+
+        - Button:
+            id: monday
+         style:
+             marginTop: 50
+                width: 100
+             height: 50
+                borderRadius: 25
+             backgroundColor: green
+         on_touch:
+                backgroundColor: rgb(100, 255, 0)
+        - Button:
+            id: tuesday
+         style:
+             width: 100
+             height: 50
+             borderRadius: 25
+             backgroundColor: red
+         on_touch:
+             backgroundColor: rgb(255, 100, 0)
+        - Button:
+            id: wednesday
+         style:
+             width: 100
+             height: 50
+             borderRadius: 25
+             backgroundColor: red
+         on_touch:
+             backgroundColor: rgb(255, 100, 0)
+        - Button:
+            id: thursday
+         style:
+             width: 100
+             height: 50
+             borderRadius: 25
+             backgroundColor: red
+         on_touch:
+             backgroundColor: rgb(255, 100, 0)
+        - Button:
+            id: friday
+         style:
+             width: 100
+             height: 50
+             borderRadius: 25
+             backgroundColor: red
+         on_touch:
+             backgroundColor: rgb(255, 100, 0)
+        - Button:
+            id: saturday
+         style:
+             width: 100
+             height: 50
+             borderRadius: 25
+             backgroundColor: red
+         on_touch:
+             backgroundColor: rgb(255, 100, 0)
+        - Button:
+            id: sunday
+         style:
+             width: 100
+             height: 50
+             borderRadius: 25
+             backgroundColor: red
+         on_touch:
+             backgroundColor: rgb(255, 100, 0)
+        - TextInput:
+            index: {index}
+            len: 40
+            style:
+              marginTop: 100
+              width: 320
+              height: 30
+              fontSize: 20
+              backgroundColor: 'white'
+              borderColor: 'gray'
+              borderWidth: 1
+

@@ -2,21 +2,23 @@
 using namespace std;
 
 class Homescreen {
-    char *day;
+    char* day;
 };
 
 class WorkingScreen {
-    char *d;
+    char* d;
+
+
 }
 
 ;
-int main() {  // what do you get if you cross an owl and a bungee cord
+int main() {
     init();
 
     const int index 1 = 1 - ;
     if (just_starting()) {
         print_at(index_1, "");
     }
-    add_yaml("homescreen_buttons.yaml", {{"index", index_1}});
+    add_yaml("buttons_homescreen.yaml", {{"index", index_1}});
     quit();
 }

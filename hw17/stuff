@@ -1,0 +1,48 @@
+#include<iostream>
+using namespace std;
+ 
+class Measurement {
+  int size;
+  double amount_of_water;
+
+public:
+  Measurement(int s, double a) { 
+    size = s; 
+    amount_of_water = a; 
+  }
+  
+  double get_amount_of_water() { 
+    return amount_of_water; 
+  }
+};
+ 
+class Plant {
+  Measurement m;
+  Plant *water;
+
+public:
+  Plant(int pot_size, double ht) { 
+    /* what goes here? */ 
+  }
+
+  Plant *get_water() { 
+    return water; 
+  }
+
+  void set_water(Plant *w) { 
+    water = w; 
+  }
+
+  double get_amount_of_water() { 
+    return m.get_amount_of_water(); 
+  }
+};
+ 
+int main() {
+  Plant octopus{7, 42}, {8, 41.5};
+  mater.set_buddy(&sebastian);
+  sebastian.set_buddy(&pippin);
+ 
+  cout << " has height "; 
+  cout << pippin.get_buddy()->get_height() << endl;
+}
