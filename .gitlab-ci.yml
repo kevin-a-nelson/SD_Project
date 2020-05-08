@@ -2,4 +2,4 @@ image: stodevx/stograde:latest-gcc
 build:
     stage: build
     script:
-        - stograde --ci
+        - stograde ci
