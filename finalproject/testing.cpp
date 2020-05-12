@@ -1,7 +1,6 @@
-#include "../react.h"
+#include"../react.h"
 
-int main()
-{
+int main() {
     init();
     add_yaml("test0.yaml");
     quit();
