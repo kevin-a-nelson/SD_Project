@@ -1,7 +1,7 @@
-- View:
+-View:
     style:
       flex: 1
-      flexDirection: column
+      flexDirection: row
     children:
       - Button:
          id: to_screen_two
@@ -21,15 +21,7 @@
            backgroundColor: yellow
          on_touch:
            backgroundColor: rgb(255, 255, 150)
-      - Button:
-         id: button_2
-         style:
-           width: 100
-           height: 50
-      
-           backgroundColor: blue
-         on_touch:
-           backgroundColor: rgb(255, 255, 150)
 - View:
     style:
       flex: 5
+

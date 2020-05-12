@@ -1,7 +1,23 @@
+- Text:
+    style:
+      fontSize: 30
+      color: black
+    index: 5
+- TextInput:
+    index: 10
+    len: 40
+    style:
+      marginTop: 100
+      width: 320
+      height: 30
+      fontSize: 20
+      backgroundColor: 'white'
+      borderColor: 'gray'
+      borderWidth: 1
 - View:
     style:
       flex: 1
-      flexDirection: row
+      flexDirection: column
     children:
       - Button:
          id: to_screen_two
@@ -19,6 +35,15 @@
            height: 50
            borderRadius: 50%
            backgroundColor: yellow
+         on_touch:
+           backgroundColor: rgb(255, 255, 150)
+      - Button:
+         id: button_2
+         style:
+           width: 100
+           height: 50
+      
+           backgroundColor: blue
          on_touch:
            backgroundColor: rgb(255, 255, 150)
 - View:
